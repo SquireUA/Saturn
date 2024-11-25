@@ -1,0 +1,75 @@
+/* styles.css */
+
+/* Загальні стилі для сторінки */
+body {
+    background-image: url('background.png'); /* Фон сайту */
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh; /* Висота на всю сторінку */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Вирівнювання по вертикалі від верху */
+    align-items: center; /* Вирівнювання по горизонталі */
+}
+
+/* Стилі для заголовка */
+h1 {
+    margin-top: 20px; /* Менший відступ зверху */
+    font-size: 36px; /* Збільшення шрифту назви */
+}
+
+/* Стилі для кнопок */
+.buttons {
+    margin-top: 50px; /* Відступ зверху для кнопок */
+    display: flex; /* Включаємо flexbox для вирівнювання кнопок по горизонталі */
+    justify-content: center; /* Вирівнюємо кнопки по центру */
+}
+
+.buttons button {
+    font-size: 24px; /* Збільшено розмір шрифта */
+    padding: 20px 40px; /* Збільшено відступи */
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 250px; /* Фіксована ширина */
+    height: 70px; /* Фіксована висота */
+    line-height: 70px; /* Вирівнювання тексту по вертикалі */
+    display: flex; /* Включаємо flexbox для вирівнювання тексту в кнопках */
+    justify-content: center; /* Вирівнюємо текст по горизонталі */
+    align-items: center; /* Вирівнюємо текст по вертикалі */
+}
+
+.buttons button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Стилі для футера */
+.footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.donation-cards {
+    font-size: 16px;
+    margin-top: 10px;
+}
