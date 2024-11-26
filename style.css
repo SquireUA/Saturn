@@ -2,7 +2,7 @@
 
 /* Загальні стилі для сторінки */
 body {
-    background-image: url('/image/wallpaper.png'); /* Фон сайту */
+    background-image: url('image/background.png'); /* Фон сайту */
     background-size: cover;
     font-family: Arial, sans-serif;
     text-align: center;
