@@ -13,6 +13,12 @@
 
 
 
+
+
+
+
+
+
 //Horoscope
 
 //document.addEventListener('DOMContentLoaded', init, false);
@@ -48,6 +54,25 @@
 //	}
 //};
 
+//try {
+//	const response = await fetch(url, options);
+//	const result = await response.text();
+//	console.log(result);
+//} catch (error) {
+//	console.error(error);
+//}
+
+//Joke
+
+//const url = 'https://humor-jokes-and-memes.p.rapidapi.com/jokes/create?topics=Scorpius&max-length=1000';
+//const options = {
+//	method: 'GET',
+//	headers: {
+//		'x-rapidapi-key': '2e6c69b4bfmsh55ffe2908e88cd9p1c947fjsn4c21a515a8d9',
+//		'x-rapidapi-host': 'humor-jokes-and-memes.p.rapidapi.com'
+//	}
+//};
+//
 //try {
 //	const response = await fetch(url, options);
 //	const result = await response.text();
